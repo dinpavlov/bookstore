@@ -9,6 +9,7 @@
   "title": "Start with Why",
   "author": "Simon Sinek"
 }`
-4. Update book: `PATCH` `books/` with data structure like  `{
+4. Update book: `PATCH` `books/{id}` with data structure like  `{
   "title": "The Infinite Game"
 }`
+4. Delete book: `DELETE` `books/{id}`
